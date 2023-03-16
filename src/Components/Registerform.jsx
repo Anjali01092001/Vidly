@@ -12,7 +12,7 @@ function Registerform() {
         if (validator.isEmail(value, {
             minSymbols: RegExp
         })) {
-            setEmail('Valid Email')
+            setEmail('valid')
         } else {
             setEmail('Invalid Email! ')
         }
